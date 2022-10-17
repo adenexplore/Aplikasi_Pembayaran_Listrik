@@ -1,0 +1,776 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.count {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+}
+
+.count h1 {
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+
+.count h1 img {
+    width: 25px;
+    height: 25px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    padding-left: 0px;
+
+}
+
+.count label {
+    float: left;
+    color: #90caf9;
+}
+
+.count .form-control {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+.form-login .btn-login  {
+   height: 30px;
+   width:200px;
+   background-color:blue;
+   border:none;
+   border-radius:10px;
+   color:white;
+   font-size:20px;
+   cursor:pointer;
+}
+.form-login .btn-login:hover {
+    background-color: #f21170;
+}
+.form-login .btn-regis {
+    height: 30px;
+    width:200px;
+    background-color:#f21170;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+.form-login .btn-regis:hover {
+    background-color: blue;
+}
+
+
+.layout {
+    background: rgba(100, 200, 500, .5);
+    color: 000;
+    text-align: left;
+    border: 1px solid #fefefe;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 400px;
+    line-height: 40px;
+}
+
+.form-control .form-colom {
+    font-family: ui-rounded;
+    color: #fff;
+    font-size: 15px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.fon {
+    font-family: ui-rounded;
+    color: #fff;
+    font-size: 15px;
+}
+
+.masukan {
+    font-family: "Courier New";
+    float: none;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #D6E0E0;
+    border-radius: 3px;
+    background: #E8FFFF;
+    padding: 4px;
+    color: #929292
+}
+
+.tbl {
+    border-radius: 5px;
+    min-width: 90px;
+    border: 5px;
+    margin-right: 10px;
+    background: blue;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tbl:hover {
+    background: pink;
+    color: #000;
+}
+
+.aktif {
+    color: #232323;
+}
+
+/*pebuka dashboar*/
+
+.bglogo {
+    background: #23049d;
+    padding-top: 10px;
+}
+
+.logoleft img {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+
+}
+
+
+.logoleft a {
+    text-decoration: none;
+    font-size: 50px;
+    float: left;
+    font-family: bold;
+    padding-left: 65px;
+    margin-top: -60px;
+    font-weight: bold;
+}
+
+.logoright a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #e7d4b5;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 60px;
+    padding-right: 20px;
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+.logoright a:hover {
+    color: #766161;
+}
+
+
+.logoleft h2 {
+    text-align: center;
+    font-family: bold;
+    font-size: 40px;
+    margin-top: 250px;
+
+}
+
+
+
+/*penutup dashboar */
+
+/* pembuka css banner */
+.section-banner {
+    height: 550px;
+    background-image: url(https://static8.depositphotos.com/1326888/802/i/600/depositphotos_8022373-stock-photo-electricity-and-lighting-concept-illustration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+    background-position-x: center;
+    position: relative;
+}
+
+.section-banner:before {
+    content: '';
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+.section-banner .box-banner {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+   
+
+}
+
+.section-banner .box-banner .image {
+    width: 50%;
+    padding-left: 250px;
+}
+.section-banner .box-banner .profesi {
+    padding-left: 200px;
+    margin-top: 20px;
+    color: #F00;
+    font-family: bold;
+    font-size: 100px;
+}
+
+
+.section-banner img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+/* penutup css banner */
+
+
+/* pembuka footer */
+
+.section-footer {
+    height: 20px;
+    background-color: #5b6d5b;
+    color: snow;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-footer small {
+    font-family: "Courier New";
+
+}
+
+/* penutup footer */
+
+/* penggunaan */
+.form-grup {
+    background-color: white;
+    color: 000;
+    text-align: left;
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 550px;
+    /* margin-right: 360px;  */
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+
+.form-grup .text {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-grup .text-colom {
+    width:500px;
+    height:40px;
+    font-size:20px;
+    margin-left: 20px;
+}
+
+.form-grup .klik {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.form-grup .klik:hover {
+    background-color: #f21170;
+
+}
+.form-grup .klik2 {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #f21170;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.form-grup .klik2:hover {
+    background-color: blue;
+}
+
+
+
+.panel-heading {
+    background-color: white;
+    color: 000;
+    text-align: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding-bottom: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.output-grup .form-control {
+    width: 70%;
+    height: 20px;
+    border-radius: 2px solid;
+}
+.output-grup .form-control-tag{
+    width: 50%;
+    height: 20px;
+    border-radius: 2px solid;
+}
+
+.output-grup .btn-primary {
+    background-color: blue;
+    color: white;
+    width: 5%;
+    height: 25px;
+    border: none;   
+    cursor: pointer;
+}
+
+.output-grup .btn-primary:hover {
+    background-color: #f21170;
+    color: white;
+}
+
+.output-grup .btn-success {
+    background-color: #f21170;
+    color: white;
+    width: 8%;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.output-grup .btn-success:hover {
+    background-color: blue;
+    color: white;
+}
+.output-grup .table-grup {
+    border: 5px solid silver;
+    margin:20px;
+}
+.output-grup  .penggunaan {
+    width:10%;
+    
+}
+.penggunaan-peng-cek,.penggunaan-peng-cek-h{
+    border: 1px solid;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.penggunaan-peng-cek-h {
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color:#f21170;
+}
+/* pelanggan */
+.form-grup-pel{
+    background-color: white;
+    color: 000;
+    text-align: left;
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    /* margin-right: 360px;  */
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.form-grup-pel .text-pel {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-grup-pel .text-colom-pel {
+    width:250px;
+    height:35px;
+    font-size:20px;
+    margin-left: 20px;
+}
+.form-grup-pel .klik-pel {
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.form-grup-pel .klik-pel:hover {
+    background-color: #f21170;
+
+}
+.form-grup-pel  .klik2-pel {
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #f21170;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.form-grup-pel .klik2-pel:hover {
+    background-color: blue;
+}
+.panel-heading-pel {
+    background-color: white;
+    color: 000;
+    text-align: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding-bottom: auto;
+    margin-top: -590px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 73%;
+    float: right;
+    line-height: 30px;
+}
+
+.output-grup-pel .form-control-pel {
+    width: 70%;
+    height: 20px;
+    border-radius: 2px solid;
+}
+.output-grup-pel .form-control-tag-pel{
+    width: 50%;
+    height: 20px;
+    border-radius: 2px solid;
+}
+
+.output-grup-pel .btn-primary-pel {
+    background-color: blue;
+    color: white;
+    width: 5%;
+    height: 25px;
+    border: none;   
+    cursor: pointer;
+}
+
+.output-grup-pel .btn-primary-pel:hover {
+    background-color: #f21170;
+    color: white;
+}
+
+.output-grup-pel .btn-success-pel {
+    background-color: #f21170;
+    color: white;
+    width: 8%;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.output-grup-pel .btn-success-pel:hover {
+    background-color: blue;
+    color: white;
+}
+.output-grup-pel .table-grup-pel {
+    border: 2px solid silver;
+    margin:20px;
+}
+.output-grup-pel thead .penggunaan-pel {
+    width: 15%;
+    
+}
+.penggunaan-pel-cek,.penggunaan-pel-cek-h{
+    border: 1px solid;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.penggunaan-pel-cek-h {
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color:#f21170;
+}
+
+.panel-heading-pel-tarif {
+    background-color: white;
+    color: 000;
+    text-align: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding-bottom: auto;
+    margin-top: -346px;
+    margin-right: 110px;
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    height:auto;
+}
+
+.output-grup-pel .form-control-pel-tarif{
+    width: 40%;
+    height: 20px;
+    border-radius: 2px solid;
+}
+.output-grup-pel thead .penggunaan-pel-tarif {
+    width: 20%;
+    
+}
+/* penutup   *
+
+/* pembuka responsive */
+@media screen and (max-width: 780px) {
+    
+    .count {
+        width: auto;
+        height:auto;
+    }
+    .count h1 {
+        font-size: 20px;
+        height: auto;
+    }
+    .count .form-control {
+        font-size:10px;
+    }
+/* dashboard */
+    .bglogo {
+        width: auto;
+        height: auto;
+    }
+    .logoleft img {
+        padding-left: 5px;
+        width: 20px;
+        height: 20px;
+       
+    }
+    .logoleft a {
+        font-size: 25px;
+        padding-top: 24px;
+        padding-left:30px ;
+    }
+    .logoright a {
+        width: auto;
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .section-banner  {
+        width: auto;
+      }
+      .section-banner .box-banner {
+          width: auto;
+      }
+      .section-banner img {
+          margin-left: -70px;
+      }
+      .section-banner .box-banner .profesi {
+          padding-top: -20px;
+          margin-left: -50px;
+          font-size: 50px;
+
+      }
+    .section-footer {
+        width: auto;
+    }
+    
+    .section-footer small {
+        font-size: 10px;
+    
+    }
+    .form-grup {
+        width:60%;
+        height: auto;
+    }
+    .form-grup h1 {
+        font-size: 20px;
+    }
+    .form-grup .text {
+        font-size: 15px;
+    }
+    .form-grup .text-colom {
+        width: auto;
+        height: auto;
+    }
+    .form-grup .klik {
+        width: 80%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .form-grup .klik2 {
+        width: 80%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .panel-heading {
+        width: auto;
+        height: auto;
+    }
+    .output-grup .form-control {
+        width: auto;
+        height: auto;
+    }
+    .output-grup .btn-primary {
+        width: 8%;
+        height: 20px;
+        font-size: 7px;
+    }
+    .output-grup .btn-success {
+        width: 8%;
+        height: 20px;
+        font-size: 7px;  
+    }
+    .output-grup table  {
+        width: 60%;
+        height: auto;
+    }
+
+    .output-grup thead .penggunaan {
+        width: auto;
+        height: auto;
+        font-size: 10px;
+    }
+    .penggunaan-peng-cek,.penggunaan-peng-cek-h{
+        font-size: 9px;
+    }
+    .penggunaan-peng-cek-h {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .output-grup .table-peng .penggunaan {
+        font-size: 8px;
+        padding-right: 16px;
+    }
+    .form-grup-pel h1 {
+        font-size: 20px;
+    }
+    .form-grup-pel .text-pel {
+        font-size: 15px;
+    }
+    .form-grup-pel .text-colom-pel {
+        width: auto;
+        height: auto;
+    }
+    .form-grup-pel .klik-pel {
+        width: 80%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .form-grup-pel .klik2-pel {
+        width: 80%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .panel-heading-pel {
+        padding-bottom: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 95%;
+    }
+    .output-grup-pel .form-control-pel {
+        width: auto;
+        height: auto;
+    }
+    .output-grup-pel .btn-primary-pel {
+        width: 8%;
+        height: 20px;
+        font-size: 7px;
+    }
+    .output-grup-pel .btn-success-pel {
+        width: 8%;
+        height: 20px;
+        font-size: 7px;  
+    }
+    .output-grup-pel table  {
+        width: 60%;
+        height: auto;
+    }
+
+    .output-grup-pel thead .penggunaan-pel {
+        width: 70%;
+        height: auto;
+        font-size: 10px;
+    }
+    .output-grup-pel .table-pel .penggunaan-pel {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    .penggunaan-pel-cek,.penggunaan-pel-cek-h{
+        font-size: 9px;
+    }
+    .penggunaan-pel-cek-h {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .panel-heading-pel-tarif {
+        padding-bottom: auto;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 35px;
+        margin-bottom: 20px;
+        width: 85%;
+    }
+    .output-grup-pel .form-control-pel-tarif {
+        width: auto;
+        height: auto;
+    }
+    .output-grup-pel thead .penggunaan-pel-tarif {
+        width: auto;
+        height: auto;
+        font-size: 10px;
+        padding-right: 20px;
+    }
+    .output-grup-pel .table-pel .penggunaan-pel-tarif {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+/* penutup responsive */
